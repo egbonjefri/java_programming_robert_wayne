@@ -1,0 +1,59 @@
+Trace of countSubsets function with example input: nums = [1, -1, 2, -2], target sum = 0
+
+Initial call: countSubsets([1, -1, 2, -2], 0, 0)
+
+1. countSubsets([1, -1, 2, -2], 0, 0)
+   - include = countSubsets([1, -1, 2, -2], 1, 1)
+     1.1 countSubsets([1, -1, 2, -2], 1, 1)
+         - include = countSubsets([1, -1, 2, -2], 2, 0)
+           1.1.1 countSubsets([1, -1, 2, -2], 2, 0)
+                 - include = countSubsets([1, -1, 2, -2], 3, 2)
+                   1.1.1.1 countSubsets([1, -1, 2, -2], 3, 2)
+                           - include = countSubsets([1, -1, 2, -2], 4, 0) => 1
+                           - exclude = countSubsets([1, -1, 2, -2], 4, 2) => 0
+                           Returns: 1 + 0 = 1
+                 - exclude = countSubsets([1, -1, 2, -2], 3, 0)
+                   1.1.1.2 countSubsets([1, -1, 2, -2], 3, 0)
+                           - include = countSubsets([1, -1, 2, -2], 4, -2) => 0
+                           - exclude = countSubsets([1, -1, 2, -2], 4, 0) => 1
+                           Returns: 0 + 1 = 1
+                 Returns: 1 + 1 = 2
+         - exclude = countSubsets([1, -1, 2, -2], 2, 1)
+           1.1.2 countSubsets([1, -1, 2, -2], 2, 1)
+                 - include = countSubsets([1, -1, 2, -2], 3, 3)
+                   1.1.2.1 countSubsets([1, -1, 2, -2], 3, 3)
+                           - include = countSubsets([1, -1, 2, -2], 4, 1) => 0
+                           - exclude = countSubsets([1, -1, 2, -2], 4, 3) => 0
+                           Returns: 0 + 0 = 0
+                 - exclude = countSubsets([1, -1, 2, -2], 3, 1)
+                   1.1.2.2 countSubsets([1, -1, 2, -2], 3, 1)
+                           - include = countSubsets([1, -1, 2, -2], 4, -1) => 0
+                           - exclude = countSubsets([1, -1, 2, -2], 4, 1) => 0
+                           Returns: 0 + 0 = 0
+                 Returns: 0 + 0 = 0
+         Returns: 2 + 0 = 2
+   - exclude = countSubsets([1, -1, 2, -2], 1, 0)
+     1.2 countSubsets([1, -1, 2, -2], 1, 0)
+         - include = countSubsets([1, -1, 2, -2], 2, -1)
+           1.2.1 countSubsets([1, -1, 2, -2], 2, -1)
+                 - include = countSubsets([1, -1, 2, -2], 3, 1)
+                   1.2.1.1 countSubsets([1, -1, 2, -2], 3, 1)
+                           - include = countSubsets([1, -1, 2, -2], 4, -1) => 0
+                           - exclude = countSubsets([1, -1, 2, -2], 4, 1) => 0
+                           Returns: 0 + 0 = 0
+                 - exclude = countSubsets([1, -1, 2, -2], 3, -1)
+                   1.2.1.2 countSubsets([1, -1, 2, -2], 3, -1)
+                           - include = countSubsets([1, -1, 2, -2], 4, -3) => 0
+                           - exclude = countSubsets([1, -1, 2, -2], 4, -1) => 0
+                           Returns: 0 + 0 = 0
+                 Returns: 0 + 0 = 0
+         - exclude = countSubsets([1, -1, 2, -2], 2, 0)
+           1.2.2 countSubsets([1, -1, 2, -2], 2, 0)
+                 (This is identical to 1.1.1, which returned 2)
+         Returns: 0 + 2 = 2
+   Returns: 2 + 2 = 4
+
+Final result: 4
+
+This means there are 4 subsets that sum to zero:
+[], [1, -1], [2, -2], [1, -1, 2, -2]

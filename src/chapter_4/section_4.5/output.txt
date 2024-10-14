@@ -1,0 +1,1380 @@
+A01 (Nishi-magome):
+  -> A02 (Distance: 1.2, Type: ride)
+
+A02 (Magome):
+  -> A01 (Distance: 1.2, Type: ride)
+  -> A03 (Distance: 0.9, Type: ride)
+
+A03 (Nakanobu):
+  -> A02 (Distance: 0.9, Type: ride)
+  -> A04 (Distance: 1.1, Type: ride)
+
+A04 (Togoshi):
+  -> A03 (Distance: 1.1, Type: ride)
+  -> A05 (Distance: 1.6, Type: ride)
+
+A05 (Gotando):
+  -> A04 (Distance: 1.6, Type: ride)
+  -> A06 (Distance: 0.7, Type: ride)
+
+A06 (Takanawadai):
+  -> A05 (Distance: 0.7, Type: ride)
+  -> A07 (Distance: 1.4, Type: ride)
+
+A07 (Sengakuji):
+  -> A06 (Distance: 1.4, Type: ride)
+  -> A08 (Distance: 1.1, Type: ride)
+
+A08 (Mita):
+  -> A07 (Distance: 1.1, Type: ride)
+  -> A09 (Distance: 1.5, Type: ride)
+  -> I04 (Distance: 0.0, Type: walk)
+
+A09 (Daimon):
+  -> A08 (Distance: 1.5, Type: ride)
+  -> A10 (Distance: 1.0, Type: ride)
+  -> E20 (Distance: 0.0, Type: walk)
+
+A10 (Shimbashi):
+  -> A09 (Distance: 1.0, Type: ride)
+  -> A11 (Distance: 0.9, Type: ride)
+  -> G08 (Distance: 0.0, Type: walk)
+
+A11 (Higashi-ginza):
+  -> A10 (Distance: 0.9, Type: ride)
+  -> A12 (Distance: 0.8, Type: ride)
+  -> H09 (Distance: 0.0, Type: walk)
+
+A12 (Takaracho):
+  -> A11 (Distance: 0.8, Type: ride)
+  -> A13 (Distance: 0.8, Type: ride)
+
+A13 (Nihombashi):
+  -> A12 (Distance: 0.8, Type: ride)
+  -> A14 (Distance: 0.8, Type: ride)
+  -> G11 (Distance: 0.0, Type: walk)
+  -> T10 (Distance: 0.0, Type: walk)
+
+A14 (Ningyocho):
+  -> A13 (Distance: 0.8, Type: ride)
+  -> A15 (Distance: 0.7, Type: ride)
+  -> H13 (Distance: 0.0, Type: walk)
+
+A15 (Higashi-Nihombashi):
+  -> A14 (Distance: 0.7, Type: ride)
+  -> A16 (Distance: 0.7, Type: ride)
+  -> S09 (Distance: 0.0, Type: walk)
+
+A16 (Asakusabashi):
+  -> A15 (Distance: 0.7, Type: ride)
+  -> A17 (Distance: 0.7, Type: ride)
+
+A17 (Kuramae):
+  -> A16 (Distance: 0.7, Type: ride)
+  -> A18 (Distance: 0.9, Type: ride)
+  -> E11 (Distance: 0.0, Type: ground)
+
+A18 (Asakusa):
+  -> A17 (Distance: 0.9, Type: ride)
+  -> A19 (Distance: 0.7, Type: ride)
+  -> G19 (Distance: 0.0, Type: walk)
+
+A19 (Honjo-azumabashi):
+  -> A18 (Distance: 0.7, Type: ride)
+  -> A20 (Distance: 0.8, Type: ride)
+
+A20 (Oshiage <SKYTREE>):
+  -> A19 (Distance: 0.8, Type: ride)
+  -> Z14 (Distance: 0.0, Type: walk)
+
+C01 (Yoyogi-uehara):
+  -> C02 (Distance: 1.0, Type: ride)
+
+C02 (Yoyogi-koen):
+  -> C01 (Distance: 1.0, Type: ride)
+  -> C03 (Distance: 1.2, Type: ride)
+
+C03 (Meiji-jingumae <Harajuku>):
+  -> C02 (Distance: 1.2, Type: ride)
+  -> C04 (Distance: 0.9, Type: ride)
+  -> F15 (Distance: 0.0, Type: walk)
+
+C04 (Omote-sando):
+  -> C03 (Distance: 0.9, Type: ride)
+  -> C05 (Distance: 1.4, Type: ride)
+  -> G02 (Distance: 0.0, Type: walk)
+  -> Z02 (Distance: 0.0, Type: walk)
+
+C05 (Nogizaka):
+  -> C04 (Distance: 1.4, Type: ride)
+  -> C06 (Distance: 1.1, Type: ride)
+
+C06 (Akasaka):
+  -> C05 (Distance: 1.1, Type: ride)
+  -> C07 (Distance: 0.8, Type: ride)
+
+C07 (Kokkai-gijidomae):
+  -> C06 (Distance: 0.8, Type: ride)
+  -> C08 (Distance: 0.8, Type: ride)
+  -> M14 (Distance: 0.0, Type: walk)
+  -> N06 (Distance: 0.0, Type: walk)
+  -> G06 (Distance: 0.0, Type: walk)
+
+C08 (Kasumigaseki):
+  -> C07 (Distance: 0.8, Type: ride)
+  -> C09 (Distance: 0.8, Type: ride)
+  -> M15 (Distance: 0.0, Type: walk)
+  -> H06 (Distance: 0.0, Type: walk)
+
+C09 (Hibiya):
+  -> C08 (Distance: 0.8, Type: ride)
+  -> C10 (Distance: 0.7, Type: ride)
+  -> I08 (Distance: 0.0, Type: walk)
+  -> H07 (Distance: 0.0, Type: walk)
+  -> Y18 (Distance: 0.0, Type: walk)
+
+C10 (Nijubashimae <Marunouchi>):
+  -> C09 (Distance: 0.7, Type: ride)
+  -> C11 (Distance: 0.7, Type: ride)
+
+C11 (Otemachi):
+  -> C10 (Distance: 0.7, Type: ride)
+  -> C12 (Distance: 1.3, Type: ride)
+  -> I09 (Distance: 0.0, Type: walk)
+  -> M18 (Distance: 0.0, Type: walk)
+  -> Z08 (Distance: 0.0, Type: walk)
+
+C12 (Shin-ochanomizu):
+  -> C11 (Distance: 1.3, Type: ride)
+  -> C13 (Distance: 1.2, Type: ride)
+  -> S07 (Distance: 0.0, Type: walk)
+  -> M19 (Distance: 0.0, Type: walk)
+
+C13 (Yushima):
+  -> C12 (Distance: 1.2, Type: ride)
+  -> C14 (Distance: 1.2, Type: ride)
+
+C14 (Nezu):
+  -> C13 (Distance: 1.2, Type: ride)
+  -> C15 (Distance: 1.0, Type: ride)
+
+C15 (Sendagi):
+  -> C14 (Distance: 1.0, Type: ride)
+  -> C16 (Distance: 0.9, Type: ride)
+
+C16 (Nishi-nippori):
+  -> C15 (Distance: 0.9, Type: ride)
+  -> C17 (Distance: 1.7, Type: ride)
+
+C17 (Machiya):
+  -> C16 (Distance: 1.7, Type: ride)
+  -> C18 (Distance: 2.6, Type: ride)
+
+C18 (Kita-senju):
+  -> C17 (Distance: 2.6, Type: ride)
+  -> C19 (Distance: 2.6, Type: ride)
+  -> H21 (Distance: 0.0, Type: walk)
+  -> H22 (Distance: 0.0, Type: walk)
+
+C19 (Ayase):
+  -> C18 (Distance: 2.6, Type: ride)
+  -> C20 (Distance: 2.1, Type: ride)
+
+C20 (Kita-ayase):
+  -> C19 (Distance: 2.1, Type: ride)
+
+E01 (Shinjuku-nishiguchi):
+  -> E02 (Distance: 1.4, Type: ride)
+  -> S01 (Distance: 0.0, Type: walk)
+  -> M08 (Distance: 0.0, Type: walk)
+  -> E27 (Distance: 0.0, Type: walk)
+  -> E28 (Distance: 0.8, Type: ride)
+
+E02 (Hagashi-shinjuku):
+  -> E01 (Distance: 1.4, Type: ride)
+  -> E03 (Distance: 1.0, Type: ride)
+  -> F12 (Distance: 0.0, Type: walk)
+
+E03 (Wakamatsu-kawada):
+  -> E02 (Distance: 1.0, Type: ride)
+  -> E04 (Distance: 0.6, Type: ride)
+
+E04 (Ushigome-Yanagicho):
+  -> E03 (Distance: 0.6, Type: ride)
+  -> E05 (Distance: 1.0, Type: ride)
+
+E05 (Ushigome-kagurazaka):
+  -> E04 (Distance: 1.0, Type: ride)
+  -> E06 (Distance: 1.0, Type: ride)
+
+E06 (Lidabashi):
+  -> E05 (Distance: 1.0, Type: ride)
+  -> E07 (Distance: 1.0, Type: ride)
+  -> T06 (Distance: 0.0, Type: walk)
+  -> Y13 (Distance: 0.0, Type: walk)
+  -> N10 (Distance: 0.0, Type: walk)
+
+E07 (Kasuga):
+  -> E06 (Distance: 1.0, Type: ride)
+  -> E08 (Distance: 0.8, Type: ride)
+  -> I12 (Distance: 0.0, Type: walk)
+  -> N11 (Distance: 0.0, Type: walk)
+  -> M11 (Distance: 0.0, Type: walk)
+
+E08 (Hongo-sanchome):
+  -> E07 (Distance: 0.8, Type: ride)
+  -> E09 (Distance: 1.1, Type: ride)
+  -> M21 (Distance: 0.0, Type: ground)
+
+E09 (Ueno-okachimachi):
+  -> E08 (Distance: 1.1, Type: ride)
+  -> E10 (Distance: 0.8, Type: ride)
+  -> G15 (Distance: 0.0, Type: walk)
+  -> H16 (Distance: 0.0, Type: walk)
+
+E10 (Shin-okachimachi):
+  -> E09 (Distance: 0.8, Type: ride)
+  -> E11 (Distance: 1.0, Type: ride)
+
+E11 (Kuramae):
+  -> E10 (Distance: 1.0, Type: ride)
+  -> E12 (Distance: 1.2, Type: ride)
+  -> A17 (Distance: 0.0, Type: ground)
+
+E12 (Ryogoku):
+  -> E11 (Distance: 1.2, Type: ride)
+  -> E13 (Distance: 1.0, Type: ride)
+
+E13 (Morishita):
+  -> E12 (Distance: 1.0, Type: ride)
+  -> E14 (Distance: 0.6, Type: ride)
+  -> S11 (Distance: 0.0, Type: walk)
+
+E14 (Kiyosumi):
+  -> E13 (Distance: 0.6, Type: ride)
+  -> E15 (Distance: 1.2, Type: ride)
+  -> Z11 (Distance: 0.0, Type: walk)
+
+E15 (Monzen-nakacho):
+  -> E14 (Distance: 1.2, Type: ride)
+  -> E16 (Distance: 1.4, Type: ride)
+  -> T12 (Distance: 0.0, Type: walk)
+
+E16 (Tsukishima):
+  -> E15 (Distance: 1.4, Type: ride)
+  -> E17 (Distance: 0.8, Type: ride)
+  -> Y21 (Distance: 0.0, Type: walk)
+
+E17 (Kachidoki):
+  -> E16 (Distance: 0.8, Type: ride)
+  -> E18 (Distance: 1.5, Type: ride)
+
+E18 (Tsukijishijo):
+  -> E17 (Distance: 1.5, Type: ride)
+  -> E19 (Distance: 0.9, Type: ride)
+
+E19 (Shiodome):
+  -> E18 (Distance: 0.9, Type: ride)
+  -> E20 (Distance: 0.9, Type: ride)
+
+E20 (Daimon):
+  -> E19 (Distance: 0.9, Type: ride)
+  -> E21 (Distance: 1.3, Type: ride)
+  -> A09 (Distance: 0.0, Type: walk)
+
+E21 (Akabanebashi):
+  -> E20 (Distance: 1.3, Type: ride)
+  -> E22 (Distance: 0.8, Type: ride)
+
+E22 (Azabu-juban):
+  -> E21 (Distance: 0.8, Type: ride)
+  -> E23 (Distance: 1.1, Type: ride)
+  -> N04 (Distance: 0.0, Type: walk)
+
+E23 (Roppongi):
+  -> E22 (Distance: 1.1, Type: ride)
+  -> E24 (Distance: 1.3, Type: ride)
+  -> H04 (Distance: 0.0, Type: walk)
+
+E24 (Aoyama-itchome):
+  -> E23 (Distance: 1.3, Type: ride)
+  -> E25 (Distance: 1.2, Type: ride)
+  -> Z03 (Distance: 0.0, Type: walk)
+  -> G04 (Distance: 0.0, Type: walk)
+
+E25 (Kokuritsu-kyogijo):
+  -> E24 (Distance: 1.2, Type: ride)
+  -> E26 (Distance: 1.5, Type: ride)
+
+E26 (Yoyogi):
+  -> E25 (Distance: 1.5, Type: ride)
+  -> E27 (Distance: 0.6, Type: ride)
+
+E27 (Shinjuku):
+  -> E26 (Distance: 0.6, Type: ride)
+  -> E28 (Distance: 0.8, Type: ride)
+  -> E01 (Distance: 0.0, Type: walk)
+  -> S01 (Distance: 0.0, Type: walk)
+  -> M08 (Distance: 0.0, Type: walk)
+
+E28 (Tochomae):
+  -> E27 (Distance: 0.8, Type: ride)
+  -> E29 (Distance: 0.8, Type: ride)
+  -> E01 (Distance: 0.8, Type: ride)
+
+E29 (Nishi-shinjuku-gochome):
+  -> E28 (Distance: 0.8, Type: ride)
+  -> E30 (Distance: 1.2, Type: ride)
+
+E30 (Nakano-sakaue):
+  -> E29 (Distance: 1.2, Type: ride)
+  -> E31 (Distance: 1.0, Type: ride)
+
+E31 (Higashi-nakano):
+  -> E30 (Distance: 1.0, Type: ride)
+  -> E32 (Distance: 0.8, Type: ride)
+
+E32 (Nakai):
+  -> E31 (Distance: 0.8, Type: ride)
+  -> E33 (Distance: 1.3, Type: ride)
+
+E33 (Ochiai-minami-nagasaki):
+  -> E32 (Distance: 1.3, Type: ride)
+  -> E34 (Distance: 1.6, Type: ride)
+
+E34 (Shin-egato):
+  -> E33 (Distance: 1.6, Type: ride)
+  -> E35 (Distance: 1.6, Type: ride)
+
+E35 (Netima):
+  -> E34 (Distance: 1.6, Type: ride)
+  -> E36 (Distance: 0.9, Type: ride)
+
+E36 (Toshimaen):
+  -> E35 (Distance: 0.9, Type: ride)
+  -> E37 (Distance: 1.5, Type: ride)
+
+E37 (Naerima-kasugacho):
+  -> E36 (Distance: 1.5, Type: ride)
+  -> E38 (Distance: 1.4, Type: ride)
+
+E38 (Hikarigaoka):
+  -> E37 (Distance: 1.4, Type: ride)
+
+F01 (Wakoshi):
+  -> F02 (Distance: 2.2, Type: ride)
+  -> Y01 (Distance: 0.0, Type: walk)
+
+F02 (Chikatetsu-narimasu):
+  -> F01 (Distance: 2.2, Type: ride)
+  -> F03 (Distance: 1.4, Type: ride)
+  -> Y02 (Distance: 0.0, Type: walk)
+
+F03 (Chikatetsu-akatsuka):
+  -> F02 (Distance: 1.4, Type: ride)
+  -> F04 (Distance: 1.8, Type: ride)
+  -> Y03 (Distance: 0.0, Type: walk)
+
+F04 (Heiwadai):
+  -> F03 (Distance: 1.8, Type: ride)
+  -> F05 (Distance: 1.4, Type: ride)
+  -> Y04 (Distance: 0.0, Type: walk)
+
+F05 (Hikawadai):
+  -> F04 (Distance: 1.4, Type: ride)
+  -> F06 (Distance: 1.5, Type: ride)
+  -> Y05 (Distance: 0.0, Type: walk)
+
+F06 (Kotake-mukaihara):
+  -> F05 (Distance: 1.5, Type: ride)
+  -> F07 (Distance: 1.1, Type: ride)
+  -> Y06 (Distance: 0.0, Type: walk)
+
+F07 (Senkawa):
+  -> F06 (Distance: 1.1, Type: ride)
+  -> F08 (Distance: 1.0, Type: ride)
+  -> Y07 (Distance: 0.0, Type: walk)
+
+F08 (Kanamecho):
+  -> F07 (Distance: 1.0, Type: ride)
+  -> F09 (Distance: 0.9, Type: ride)
+  -> Y08 (Distance: 0.0, Type: walk)
+
+F09 (Ikebukuro):
+  -> F08 (Distance: 0.9, Type: ride)
+  -> F10 (Distance: 1.8, Type: ride)
+  -> Y09 (Distance: 0.0, Type: walk)
+  -> M25 (Distance: 0.0, Type: walk)
+
+F10 (Zoshigaya):
+  -> F09 (Distance: 1.8, Type: ride)
+  -> F11 (Distance: 1.5, Type: ride)
+
+F11 (Nishi-waseda):
+  -> F10 (Distance: 1.5, Type: ride)
+  -> F12 (Distance: 0.9, Type: ride)
+
+F12 (Higashi-shinjuku):
+  -> F11 (Distance: 0.9, Type: ride)
+  -> F13 (Distance: 1.1, Type: ride)
+  -> E02 (Distance: 0.0, Type: walk)
+
+F13 (Shinjuku-sanchome):
+  -> F12 (Distance: 1.1, Type: ride)
+  -> F14 (Distance: 1.4, Type: ride)
+  -> S02 (Distance: 0.0, Type: walk)
+  -> M09 (Distance: 0.0, Type: walk)
+
+F14 (Kita-sando):
+  -> F13 (Distance: 1.4, Type: ride)
+  -> F15 (Distance: 1.2, Type: ride)
+
+F15 (Meiji-jingumae <Harajuku>):
+  -> F14 (Distance: 1.2, Type: ride)
+  -> F16 (Distance: 1.0, Type: ride)
+  -> C03 (Distance: 0.0, Type: walk)
+
+F16 (Shibuya):
+  -> F15 (Distance: 1.0, Type: ride)
+  -> G01 (Distance: 0.0, Type: walk)
+  -> Z01 (Distance: 0.0, Type: walk)
+
+G01 (Shibuya):
+  -> G02 (Distance: 1.3, Type: ride)
+  -> F16 (Distance: 0.0, Type: walk)
+  -> Z01 (Distance: 0.0, Type: walk)
+
+G02 (Ometo-sando):
+  -> G01 (Distance: 1.3, Type: ride)
+  -> G03 (Distance: 0.7, Type: ride)
+  -> C04 (Distance: 0.0, Type: walk)
+  -> Z02 (Distance: 0.0, Type: walk)
+
+G03 (Gaiemmae):
+  -> G02 (Distance: 0.7, Type: ride)
+  -> G04 (Distance: 0.7, Type: ride)
+
+G04 (Aoyama-itchome):
+  -> G03 (Distance: 0.7, Type: ride)
+  -> G05 (Distance: 1.3, Type: ride)
+  -> E24 (Distance: 0.0, Type: walk)
+  -> Z03 (Distance: 0.0, Type: walk)
+
+G05 (Akasaka-mitsuke):
+  -> G04 (Distance: 1.3, Type: ride)
+  -> G06 (Distance: 0.9, Type: ride)
+  -> M13 (Distance: 0.0, Type: walk)
+  -> N07 (Distance: 0.0, Type: walk)
+  -> Z04 (Distance: 0.0, Type: walk)
+  -> Y16 (Distance: 0.0, Type: walk)
+
+G06 (Tameiki-sanno):
+  -> G05 (Distance: 0.9, Type: ride)
+  -> G07 (Distance: 0.6, Type: ride)
+  -> C07 (Distance: 0.0, Type: walk)
+  -> M14 (Distance: 0.0, Type: walk)
+  -> N06 (Distance: 0.0, Type: walk)
+
+G07 (Toranomon Hills):
+  -> G06 (Distance: 0.6, Type: ride)
+  -> G08 (Distance: 0.8, Type: ride)
+
+G08 (Shimbashi):
+  -> G07 (Distance: 0.8, Type: ride)
+  -> G09 (Distance: 0.9, Type: ride)
+  -> A10 (Distance: 0.0, Type: walk)
+
+G09 (Ginza):
+  -> G08 (Distance: 0.9, Type: ride)
+  -> G10 (Distance: 0.7, Type: ride)
+  -> M16 (Distance: 0.0, Type: walk)
+  -> H08 (Distance: 0.0, Type: walk)
+
+G10 (Kyobashi):
+  -> G09 (Distance: 0.7, Type: ride)
+  -> G11 (Distance: 0.7, Type: ride)
+
+G11 (Nihombashi):
+  -> G10 (Distance: 0.7, Type: ride)
+  -> G12 (Distance: 0.6, Type: ride)
+  -> T10 (Distance: 0.0, Type: walk)
+  -> A13 (Distance: 0.0, Type: walk)
+
+G12 (Mitsukoshimae):
+  -> G11 (Distance: 0.6, Type: ride)
+  -> G13 (Distance: 0.7, Type: ride)
+  -> Z09 (Distance: 0.0, Type: walk)
+
+G13 (Kanda):
+  -> G12 (Distance: 0.7, Type: ride)
+  -> G14 (Distance: 1.1, Type: ride)
+
+G14 (Suehirocho):
+  -> G13 (Distance: 1.1, Type: ride)
+  -> G15 (Distance: 0.6, Type: ride)
+
+G15 (Ueno-hirokoji):
+  -> G14 (Distance: 0.6, Type: ride)
+  -> G16 (Distance: 0.8, Type: ride)
+  -> E09 (Distance: 0.0, Type: walk)
+  -> H16 (Distance: 0.0, Type: walk)
+
+G16 (Ueno):
+  -> G15 (Distance: 0.8, Type: ride)
+  -> G17 (Distance: 0.7, Type: ride)
+  -> H17 (Distance: 0.0, Type: walk)
+
+G17 (Inaricho):
+  -> G16 (Distance: 0.7, Type: ride)
+  -> G18 (Distance: 0.7, Type: ride)
+
+G18 (Tawaramachi):
+  -> G17 (Distance: 0.7, Type: ride)
+  -> G19 (Distance: 0.8, Type: ride)
+
+G19 (Asakusa):
+  -> G18 (Distance: 0.8, Type: ride)
+  -> A18 (Distance: 0.0, Type: walk)
+
+H01 (Naka-meguro):
+  -> H02 (Distance: 1.0, Type: ride)
+
+H02 (Ebisu):
+  -> H01 (Distance: 1.0, Type: ride)
+  -> H03 (Distance: 1.5, Type: ride)
+
+H03 (Hiro-o):
+  -> H02 (Distance: 1.5, Type: ride)
+  -> H04 (Distance: 1.7, Type: ride)
+
+H04 (Roppongi):
+  -> H03 (Distance: 1.7, Type: ride)
+  -> H05 (Distance: 1.5, Type: ride)
+  -> E23 (Distance: 0.0, Type: walk)
+
+H05 (Kamiyacho):
+  -> H04 (Distance: 1.5, Type: ride)
+  -> H06 (Distance: 0.8, Type: ride)
+
+H06 (Toranomon-hills):
+  -> H05 (Distance: 0.8, Type: ride)
+  -> H07 (Distance: 0.5, Type: ride)
+  -> M15 (Distance: 0.0, Type: walk)
+  -> C08 (Distance: 0.0, Type: walk)
+
+H07 (Kasumigaseki):
+  -> H06 (Distance: 0.5, Type: ride)
+  -> H08 (Distance: 1.2, Type: ride)
+  -> I08 (Distance: 0.0, Type: walk)
+  -> C09 (Distance: 0.0, Type: walk)
+  -> Y18 (Distance: 0.0, Type: walk)
+
+H08 (Hibiya):
+  -> H07 (Distance: 1.2, Type: ride)
+  -> H09 (Distance: 0.4, Type: ride)
+  -> M16 (Distance: 0.0, Type: walk)
+  -> G09 (Distance: 0.0, Type: walk)
+
+H09 (Ginza):
+  -> H08 (Distance: 0.4, Type: ride)
+  -> H10 (Distance: 0.4, Type: ride)
+  -> A11 (Distance: 0.0, Type: walk)
+
+H10 (Higashi-ginza):
+  -> H09 (Distance: 0.4, Type: ride)
+  -> H11 (Distance: 0.6, Type: ride)
+
+H11 (Tsukiji):
+  -> H10 (Distance: 0.6, Type: ride)
+  -> H12 (Distance: 1.0, Type: ride)
+
+H12 (Hatchobori):
+  -> H11 (Distance: 1.0, Type: ride)
+  -> H13 (Distance: 0.5, Type: ride)
+  -> T11 (Distance: 0.0, Type: walk)
+
+H13 (Kayabacho):
+  -> H12 (Distance: 0.5, Type: ride)
+  -> H14 (Distance: 0.9, Type: ride)
+  -> A14 (Distance: 0.0, Type: walk)
+
+H14 (Ningyocho):
+  -> H13 (Distance: 0.9, Type: ride)
+  -> H15 (Distance: 0.6, Type: ride)
+
+H15 (Kodemmacho):
+  -> H14 (Distance: 0.6, Type: ride)
+  -> H16 (Distance: 0.9, Type: ride)
+  -> S08 (Distance: 0.0, Type: walk)
+
+H16 (Akihabara):
+  -> H15 (Distance: 0.9, Type: ride)
+  -> H17 (Distance: 1.0, Type: ride)
+  -> E09 (Distance: 0.0, Type: walk)
+  -> G15 (Distance: 0.0, Type: walk)
+
+H17 (Naka-okachimachi):
+  -> H16 (Distance: 1.0, Type: ride)
+  -> H18 (Distance: 0.5, Type: ride)
+  -> G16 (Distance: 0.0, Type: walk)
+
+H18 (Ueno):
+  -> H17 (Distance: 0.5, Type: ride)
+  -> H19 (Distance: 1.2, Type: ride)
+
+H19 (Iriya):
+  -> H18 (Distance: 1.2, Type: ride)
+  -> H20 (Distance: 1.2, Type: ride)
+
+H20 (Minowa):
+  -> H19 (Distance: 1.2, Type: ride)
+  -> H21 (Distance: 0.8, Type: ride)
+
+H21 (Minami-senju):
+  -> H20 (Distance: 0.8, Type: ride)
+  -> H22 (Distance: 2.1, Type: ride)
+  -> C18 (Distance: 0.0, Type: walk)
+
+H22 (Kita-senju):
+  -> H21 (Distance: 2.1, Type: ride)
+  -> C18 (Distance: 0.0, Type: walk)
+
+I01 (Meguro):
+  -> I02 (Distance: 1.3, Type: ride)
+  -> N01 (Distance: 0.0, Type: walk)
+
+I02 (Shirokanedai):
+  -> I01 (Distance: 1.3, Type: ride)
+  -> I03 (Distance: 1.0, Type: ride)
+  -> N01 (Distance: 0.0, Type: walk)
+
+I03 (Shirokane-takanawa):
+  -> I02 (Distance: 1.0, Type: ride)
+  -> I04 (Distance: 1.7, Type: ride)
+  -> N01 (Distance: 0.0, Type: walk)
+
+I04 (Mita):
+  -> I03 (Distance: 1.7, Type: ride)
+  -> I05 (Distance: 0.6, Type: ride)
+  -> A08 (Distance: 0.0, Type: walk)
+
+I05 (Shibakoen):
+  -> I04 (Distance: 0.6, Type: ride)
+  -> I06 (Distance: 0.7, Type: ride)
+
+I06 (Onairimon):
+  -> I05 (Distance: 0.7, Type: ride)
+  -> I07 (Distance: 1.1, Type: ride)
+
+I07 (Uchisaiwaicho):
+  -> I06 (Distance: 1.1, Type: ride)
+  -> I08 (Distance: 0.9, Type: ride)
+
+I08 (Hibiya):
+  -> I07 (Distance: 0.9, Type: ride)
+  -> I09 (Distance: 0.9, Type: ride)
+  -> C09 (Distance: 0.0, Type: walk)
+  -> H07 (Distance: 0.0, Type: walk)
+  -> Y18 (Distance: 0.0, Type: walk)
+
+I09 (Otemachi):
+  -> I08 (Distance: 0.9, Type: ride)
+  -> I10 (Distance: 1.4, Type: ride)
+  -> C11 (Distance: 0.0, Type: walk)
+  -> M18 (Distance: 0.0, Type: walk)
+  -> Z08 (Distance: 0.0, Type: walk)
+
+I10 (Jimbocho):
+  -> I09 (Distance: 1.4, Type: ride)
+  -> I11 (Distance: 1.0, Type: ride)
+  -> S06 (Distance: 0.0, Type: walk)
+  -> Z07 (Distance: 0.0, Type: walk)
+
+I11 (Suidobashi):
+  -> I10 (Distance: 1.0, Type: ride)
+  -> I12 (Distance: 0.7, Type: ride)
+
+I12 (Kasuga):
+  -> I11 (Distance: 0.7, Type: ride)
+  -> I13 (Distance: 1.4, Type: ride)
+  -> E07 (Distance: 0.0, Type: walk)
+  -> N11 (Distance: 0.0, Type: walk)
+  -> M22 (Distance: 0.0, Type: walk)
+
+I13 (Hakusan):
+  -> I12 (Distance: 1.4, Type: ride)
+  -> I14 (Distance: 1.0, Type: ride)
+
+I14 (Sengoku):
+  -> I13 (Distance: 1.0, Type: ride)
+  -> I15 (Distance: 0.9, Type: ride)
+
+I15 (Sugamo):
+  -> I14 (Distance: 0.9, Type: ride)
+  -> I16 (Distance: 1.4, Type: ride)
+
+I16 (Nishi-sugamo):
+  -> I15 (Distance: 1.4, Type: ride)
+  -> I17 (Distance: 1.0, Type: ride)
+
+I17 (Shin-itabashi):
+  -> I16 (Distance: 1.0, Type: ride)
+  -> I18 (Distance: 0.9, Type: ride)
+
+I18 (Itabashi-kuyakushomae):
+  -> I17 (Distance: 0.9, Type: ride)
+  -> I19 (Distance: 1.2, Type: ride)
+
+I19 (Itabashihoncho):
+  -> I18 (Distance: 1.2, Type: ride)
+  -> I20 (Distance: 0.9, Type: ride)
+
+I20 (Motohasunuma):
+  -> I19 (Distance: 0.9, Type: ride)
+  -> I21 (Distance: 1.1, Type: ride)
+
+I21 (Shinmura-sakaue):
+  -> I20 (Distance: 1.1, Type: ride)
+  -> I22 (Distance: 0.9, Type: ride)
+
+I22 (Shgimura-sanchome):
+  -> I21 (Distance: 0.9, Type: ride)
+  -> I23 (Distance: 1.2, Type: ride)
+
+I23 (Hasuna):
+  -> I22 (Distance: 1.2, Type: ride)
+  -> I24 (Distance: 0.8, Type: ride)
+
+I24 (Nishidai):
+  -> I23 (Distance: 0.8, Type: ride)
+  -> I25 (Distance: 1.0, Type: ride)
+
+I25 (Takashimadaira):
+  -> I24 (Distance: 1.0, Type: ride)
+  -> I26 (Distance: 0.7, Type: ride)
+
+I26 (Shin-takashimadaira):
+  -> I25 (Distance: 0.7, Type: ride)
+  -> I27 (Distance: 0.8, Type: ride)
+
+I27 (Nishi-takashimadaira):
+  -> I26 (Distance: 0.8, Type: ride)
+
+M01 (Ogikubo):
+  -> M02 (Distance: 1.5, Type: ride)
+
+M02 (Minami-asagaya):
+  -> M01 (Distance: 1.5, Type: ride)
+  -> M03 (Distance: 1.2, Type: ride)
+
+M03 (Sin-koenji):
+  -> M02 (Distance: 1.2, Type: ride)
+  -> M04 (Distance: 0.9, Type: ride)
+
+M04 (Higashi-koenji):
+  -> M03 (Distance: 0.9, Type: ride)
+  -> M05 (Distance: 1.0, Type: ride)
+
+M05 (Shin-nakano):
+  -> M04 (Distance: 1.0, Type: ride)
+  -> M06 (Distance: 1.1, Type: ride)
+
+M06 (Nakano-sakaue):
+  -> M05 (Distance: 1.1, Type: ride)
+  -> M07 (Distance: 1.1, Type: ride)
+  -> Mb05 (Distance: 1.3, Type: ride)
+
+M07 (Nishi-shinjuku):
+  -> M06 (Distance: 1.1, Type: ride)
+  -> M08 (Distance: 0.8, Type: ride)
+
+M08 (Shinjuku-nishiguchi):
+  -> M07 (Distance: 0.8, Type: ride)
+  -> M09 (Distance: 0.3, Type: ride)
+  -> E01 (Distance: 0.0, Type: walk)
+  -> S01 (Distance: 0.0, Type: walk)
+  -> E27 (Distance: 0.0, Type: walk)
+
+M09 (Shinjuku-sanchome):
+  -> M08 (Distance: 0.3, Type: ride)
+  -> M10 (Distance: 0.7, Type: ride)
+  -> F13 (Distance: 0.0, Type: walk)
+
+M10 (Shinjuku-gyoemmae):
+  -> M09 (Distance: 0.7, Type: ride)
+  -> M11 (Distance: 0.9, Type: ride)
+
+M11 (Yotsuya-sanchome):
+  -> M10 (Distance: 0.9, Type: ride)
+  -> M12 (Distance: 1.0, Type: ride)
+  -> E07 (Distance: 0.0, Type: walk)
+  -> N11 (Distance: 0.0, Type: walk)
+
+M12 (Yotasuya):
+  -> M11 (Distance: 1.0, Type: ride)
+  -> M13 (Distance: 1.3, Type: ride)
+  -> N08 (Distance: 0.0, Type: walk)
+
+M13 (Akasaka-mutsuke):
+  -> M12 (Distance: 1.3, Type: ride)
+  -> M14 (Distance: 0.9, Type: ride)
+  -> G05 (Distance: 0.0, Type: walk)
+  -> N07 (Distance: 0.0, Type: walk)
+  -> Z04 (Distance: 0.0, Type: walk)
+  -> Y16 (Distance: 0.0, Type: walk)
+
+M14 (Kokki-gijidomae):
+  -> M13 (Distance: 0.9, Type: ride)
+  -> M15 (Distance: 0.7, Type: ride)
+  -> C07 (Distance: 0.0, Type: walk)
+  -> N06 (Distance: 0.0, Type: walk)
+  -> G06 (Distance: 0.0, Type: walk)
+
+M15 (Kasumigaseki):
+  -> M14 (Distance: 0.7, Type: ride)
+  -> M16 (Distance: 1.0, Type: ride)
+  -> H06 (Distance: 0.0, Type: walk)
+  -> C08 (Distance: 0.0, Type: walk)
+
+M16 (Ginza):
+  -> M15 (Distance: 1.0, Type: ride)
+  -> M17 (Distance: 1.1, Type: ride)
+  -> H08 (Distance: 0.0, Type: walk)
+  -> G09 (Distance: 0.0, Type: walk)
+
+M17 (Tokyo):
+  -> M16 (Distance: 1.1, Type: ride)
+  -> M18 (Distance: 0.6, Type: ride)
+
+M18 (Otemachi):
+  -> M17 (Distance: 0.6, Type: ride)
+  -> M19 (Distance: 0.9, Type: ride)
+  -> I09 (Distance: 0.0, Type: walk)
+  -> C11 (Distance: 0.0, Type: walk)
+  -> Z08 (Distance: 0.0, Type: walk)
+
+M19 (Awajicho):
+  -> M18 (Distance: 0.9, Type: ride)
+  -> M20 (Distance: 0.8, Type: ride)
+  -> C12 (Distance: 0.0, Type: walk)
+  -> S07 (Distance: 0.0, Type: walk)
+
+M20 (Ochanomizu):
+  -> M19 (Distance: 0.8, Type: ride)
+  -> M21 (Distance: 0.8, Type: ride)
+
+M21 (Hongo-sanchome):
+  -> M20 (Distance: 0.8, Type: ride)
+  -> M22 (Distance: 0.8, Type: ride)
+  -> E08 (Distance: 0.0, Type: ground)
+
+M22 (Korakuen):
+  -> M21 (Distance: 0.8, Type: ride)
+  -> M23 (Distance: 1.8, Type: ride)
+  -> I12 (Distance: 0.0, Type: walk)
+
+M23 (Myogadani):
+  -> M22 (Distance: 1.8, Type: ride)
+  -> M24 (Distance: 1.2, Type: ride)
+
+M24 (Shin-otsuka):
+  -> M23 (Distance: 1.2, Type: ride)
+  -> M25 (Distance: 1.8, Type: ride)
+
+M25 (Ikebukuro):
+  -> M24 (Distance: 1.8, Type: ride)
+  -> F09 (Distance: 0.0, Type: walk)
+
+Mb03 (Nonancho):
+  -> Mb04 (Distance: 1.3, Type: ride)
+
+Mb04 (Nakano-fujimicho):
+  -> Mb03 (Distance: 1.3, Type: ride)
+  -> Mb05 (Distance: 0.6, Type: ride)
+
+Mb05 (Nakano-shimbashi):
+  -> Mb04 (Distance: 0.6, Type: ride)
+  -> M06 (Distance: 1.3, Type: ride)
+
+N01 (Meguro):
+  -> N02 (Distance: 1.3, Type: ride)
+  -> I01 (Distance: 0.0, Type: walk)
+  -> I02 (Distance: 0.0, Type: walk)
+  -> I03 (Distance: 0.0, Type: walk)
+
+N02 (Shirokanedai):
+  -> N01 (Distance: 1.3, Type: ride)
+  -> N03 (Distance: 1.0, Type: ride)
+
+N03 (Shirokane-takanawa):
+  -> N02 (Distance: 1.0, Type: ride)
+  -> N04 (Distance: 1.3, Type: ride)
+
+N04 (Azabu-juban):
+  -> N03 (Distance: 1.3, Type: ride)
+  -> N05 (Distance: 1.2, Type: ride)
+  -> E22 (Distance: 0.0, Type: walk)
+
+N05 (Roppongi-itchome):
+  -> N04 (Distance: 1.2, Type: ride)
+  -> N06 (Distance: 0.9, Type: ride)
+
+N06 (Tameike-sanno):
+  -> N05 (Distance: 0.9, Type: ride)
+  -> N07 (Distance: 0.9, Type: ride)
+  -> C07 (Distance: 0.0, Type: walk)
+  -> M14 (Distance: 0.0, Type: walk)
+  -> G06 (Distance: 0.0, Type: walk)
+
+N07 (Nagatacho):
+  -> N06 (Distance: 0.9, Type: ride)
+  -> N08 (Distance: 1.3, Type: ride)
+  -> G05 (Distance: 0.0, Type: walk)
+  -> M13 (Distance: 0.0, Type: walk)
+  -> Z04 (Distance: 0.0, Type: walk)
+  -> Y16 (Distance: 0.0, Type: walk)
+
+N08 (Yotsuya):
+  -> N07 (Distance: 1.3, Type: ride)
+  -> N09 (Distance: 1.0, Type: ride)
+  -> M12 (Distance: 0.0, Type: walk)
+
+N09 (Ichigaya):
+  -> N08 (Distance: 1.0, Type: ride)
+  -> N10 (Distance: 1.1, Type: ride)
+  -> S04 (Distance: 0.0, Type: walk)
+  -> Y14 (Distance: 0.0, Type: walk)
+
+N10 (Iidabashi):
+  -> N09 (Distance: 1.1, Type: ride)
+  -> N11 (Distance: 1.4, Type: ride)
+  -> E06 (Distance: 0.0, Type: walk)
+  -> T06 (Distance: 0.0, Type: walk)
+  -> Y13 (Distance: 0.0, Type: walk)
+
+N11 (Korakuen):
+  -> N10 (Distance: 1.4, Type: ride)
+  -> N12 (Distance: 1.3, Type: ride)
+  -> I12 (Distance: 0.0, Type: walk)
+  -> E07 (Distance: 0.0, Type: walk)
+  -> M11 (Distance: 0.0, Type: walk)
+
+N12 (Todaimae):
+  -> N11 (Distance: 1.3, Type: ride)
+  -> N13 (Distance: 0.9, Type: ride)
+
+N13 (Hon-komagome):
+  -> N12 (Distance: 0.9, Type: ride)
+  -> N14 (Distance: 1.4, Type: ride)
+
+N14 (Komagome):
+  -> N13 (Distance: 1.4, Type: ride)
+  -> N15 (Distance: 1.4, Type: ride)
+
+N15 (Nishigahara):
+  -> N14 (Distance: 1.4, Type: ride)
+  -> N16 (Distance: 1.0, Type: ride)
+
+N16 (Oji):
+  -> N15 (Distance: 1.0, Type: ride)
+  -> N17 (Distance: 1.2, Type: ride)
+
+N17 (Oji-kamiya):
+  -> N16 (Distance: 1.2, Type: ride)
+  -> N18 (Distance: 1.6, Type: ride)
+
+N18 (Shimo):
+  -> N17 (Distance: 1.6, Type: ride)
+  -> N19 (Distance: 1.1, Type: ride)
+
+N19 (Akabane-iwabuchi):
+  -> N18 (Distance: 1.1, Type: ride)
+
+S01 (Shinjuku):
+  -> S02 (Distance: 0.8, Type: ride)
+  -> E01 (Distance: 0.0, Type: walk)
+  -> M08 (Distance: 0.0, Type: walk)
+  -> E27 (Distance: 0.0, Type: walk)
+
+S02 (Shinjuku-sanchome):
+  -> S01 (Distance: 0.8, Type: ride)
+  -> S03 (Distance: 1.5, Type: ride)
+  -> F13 (Distance: 0.0, Type: walk)
+
+S03 (Akebonobashi):
+  -> S02 (Distance: 1.5, Type: ride)
+  -> S04 (Distance: 1.4, Type: ride)
+
+S04 (Ichigaya):
+  -> S03 (Distance: 1.4, Type: ride)
+  -> S05 (Distance: 1.4, Type: ride)
+  -> Y14 (Distance: 0.0, Type: walk)
+  -> N09 (Distance: 0.0, Type: walk)
+
+S05 (Kudanshita):
+  -> S04 (Distance: 1.4, Type: ride)
+  -> S06 (Distance: 0.6, Type: ride)
+  -> Z06 (Distance: 0.0, Type: walk)
+  -> T07 (Distance: 0.0, Type: walk)
+
+S06 (Jimbocho):
+  -> S05 (Distance: 0.6, Type: ride)
+  -> S07 (Distance: 0.9, Type: ride)
+  -> I10 (Distance: 0.0, Type: walk)
+  -> Z07 (Distance: 0.0, Type: walk)
+
+S07 (Ogawamachi):
+  -> S06 (Distance: 0.9, Type: ride)
+  -> S08 (Distance: 0.8, Type: ride)
+  -> C12 (Distance: 0.0, Type: walk)
+  -> M19 (Distance: 0.0, Type: walk)
+
+S08 (Iwamotocho):
+  -> S07 (Distance: 0.8, Type: ride)
+  -> S09 (Distance: 0.8, Type: ride)
+  -> H15 (Distance: 0.0, Type: walk)
+
+S09 (Bakuro yokoyama):
+  -> S08 (Distance: 0.8, Type: ride)
+  -> S10 (Distance: 0.6, Type: ride)
+  -> A15 (Distance: 0.0, Type: walk)
+
+S10 (Hamacho):
+  -> S09 (Distance: 0.6, Type: ride)
+  -> S11 (Distance: 0.8, Type: ride)
+
+S11 (Morishita):
+  -> S10 (Distance: 0.8, Type: ride)
+  -> S12 (Distance: 0.8, Type: ride)
+  -> E13 (Distance: 0.0, Type: walk)
+
+S12 (Kikukawa):
+  -> S11 (Distance: 0.8, Type: ride)
+  -> S13 (Distance: 0.9, Type: ride)
+
+S13 (Sumiyoshi):
+  -> S12 (Distance: 0.9, Type: ride)
+  -> S14 (Distance: 1.0, Type: ride)
+  -> Z12 (Distance: 0.0, Type: walk)
+
+S14 (Nishi-ojima):
+  -> S13 (Distance: 1.0, Type: ride)
+  -> S15 (Distance: 0.7, Type: ride)
+
+S15 (Ojima):
+  -> S14 (Distance: 0.7, Type: ride)
+  -> S16 (Distance: 1.2, Type: ride)
+
+S16 (Higashi-ojima):
+  -> S15 (Distance: 1.2, Type: ride)
+  -> S17 (Distance: 1.7, Type: ride)
+
+S17 (Funabori):
+  -> S16 (Distance: 1.7, Type: ride)
+  -> S18 (Distance: 1.7, Type: ride)
+
+S18 (Ichinoe):
+  -> S17 (Distance: 1.7, Type: ride)
+  -> S19 (Distance: 1.7, Type: ride)
+
+S19 (Mizue):
+  -> S18 (Distance: 1.7, Type: ride)
+  -> S20 (Distance: 1.5, Type: ride)
+
+S20 (Shinozaki):
+  -> S19 (Distance: 1.5, Type: ride)
+  -> S21 (Distance: 2.8, Type: ride)
+
+S21 (Motoyawata):
+  -> S20 (Distance: 2.8, Type: ride)
+
+T01 (Nakano):
+  -> T02 (Distance: 2.0, Type: ride)
+
+T02 (Ochiai):
+  -> T01 (Distance: 2.0, Type: ride)
+  -> T03 (Distance: 1.9, Type: ride)
+
+T03 (Takadanobaba):
+  -> T02 (Distance: 1.9, Type: ride)
+  -> T04 (Distance: 1.7, Type: ride)
+
+T04 (Waseda):
+  -> T03 (Distance: 1.7, Type: ride)
+  -> T05 (Distance: 1.2, Type: ride)
+
+T05 (Kagurazaka):
+  -> T04 (Distance: 1.2, Type: ride)
+  -> T06 (Distance: 1.2, Type: ride)
+
+T06 (Iidabashi):
+  -> T05 (Distance: 1.2, Type: ride)
+  -> T07 (Distance: 0.7, Type: ride)
+  -> E06 (Distance: 0.0, Type: walk)
+  -> Y13 (Distance: 0.0, Type: walk)
+  -> N10 (Distance: 0.0, Type: walk)
+
+T07 (Kudanshita):
+  -> T06 (Distance: 0.7, Type: ride)
+  -> T08 (Distance: 1.0, Type: ride)
+  -> S05 (Distance: 0.0, Type: walk)
+  -> Z06 (Distance: 0.0, Type: walk)
+
+T08 (Takebashi):
+  -> T07 (Distance: 1.0, Type: ride)
+  -> T09 (Distance: 1.0, Type: ride)
+
+T09 (Otemachi):
+  -> T08 (Distance: 1.0, Type: ride)
+  -> T10 (Distance: 0.8, Type: ride)
+
+T10 (Nihombashi):
+  -> T09 (Distance: 0.8, Type: ride)
+  -> T11 (Distance: 0.5, Type: ride)
+  -> G11 (Distance: 0.0, Type: walk)
+  -> A13 (Distance: 0.0, Type: walk)
+
+T11 (Kayabacho):
+  -> T10 (Distance: 0.5, Type: ride)
+  -> T12 (Distance: 1.8, Type: ride)
+  -> H12 (Distance: 0.0, Type: walk)
+
+T12 (Monzen-nakacho):
+  -> T11 (Distance: 1.8, Type: ride)
+  -> T13 (Distance: 1.1, Type: ride)
+  -> E15 (Distance: 0.0, Type: walk)
+
+T13 (Kiba):
+  -> T12 (Distance: 1.1, Type: ride)
+  -> T14 (Distance: 0.9, Type: ride)
+
+T14 (Toyocho):
+  -> T13 (Distance: 0.9, Type: ride)
+  -> T15 (Distance: 1.2, Type: ride)
+
+T15 (Minami-sunamachi):
+  -> T14 (Distance: 1.2, Type: ride)
+  -> T16 (Distance: 2.7, Type: ride)
+
+T16 (Nishi-kasai):
+  -> T15 (Distance: 2.7, Type: ride)
+  -> T17 (Distance: 1.2, Type: ride)
+
+T17 (Kasai):
+  -> T16 (Distance: 1.2, Type: ride)
+  -> T18 (Distance: 1.9, Type: ride)
+
+T18 (Urayasu):
+  -> T17 (Distance: 1.9, Type: ride)
+  -> T19 (Distance: 1.2, Type: ride)
+
+T19 (Minami-gyotoku):
+  -> T18 (Distance: 1.2, Type: ride)
+  -> T20 (Distance: 1.5, Type: ride)
+
+T20 (Gyotoku):
+  -> T19 (Distance: 1.5, Type: ride)
+  -> T21 (Distance: 1.3, Type: ride)
+
+T21 (Myoden):
+  -> T20 (Distance: 1.3, Type: ride)
+  -> T22 (Distance: 2.1, Type: ride)
+
+T22 (Baraki-nakayama):
+  -> T21 (Distance: 2.1, Type: ride)
+  -> T23 (Distance: 1.9, Type: ride)
+
+T23 (Nishi-funabashi):
+  -> T22 (Distance: 1.9, Type: ride)
+
+Y01 (Wakoshi):
+  -> Y02 (Distance: 2.2, Type: ride)
+  -> F01 (Distance: 0.0, Type: walk)
+
+Y02 (Chikatetsu-narimasu):
+  -> Y01 (Distance: 2.2, Type: ride)
+  -> Y03 (Distance: 1.4, Type: ride)
+  -> F02 (Distance: 0.0, Type: walk)
+
+Y03 (Chikatetsu-akatsuka):
+  -> Y02 (Distance: 1.4, Type: ride)
+  -> Y04 (Distance: 1.8, Type: ride)
+  -> F03 (Distance: 0.0, Type: walk)
+
+Y04 (Heiwadai):
+  -> Y03 (Distance: 1.8, Type: ride)
+  -> Y05 (Distance: 1.4, Type: ride)
+  -> F04 (Distance: 0.0, Type: walk)
+
+Y05 (Hikawadai):
+  -> Y04 (Distance: 1.4, Type: ride)
+  -> Y06 (Distance: 1.5, Type: ride)
+  -> F05 (Distance: 0.0, Type: walk)
+
+Y06 (Kotake-mukaihara):
+  -> Y05 (Distance: 1.5, Type: ride)
+  -> Y07 (Distance: 1.0, Type: ride)
+  -> F06 (Distance: 0.0, Type: walk)
+
+Y07 (Senkawa):
+  -> Y06 (Distance: 1.0, Type: ride)
+  -> Y08 (Distance: 1.0, Type: ride)
+  -> F07 (Distance: 0.0, Type: walk)
+
+Y08 (Kanamecho):
+  -> Y07 (Distance: 1.0, Type: ride)
+  -> Y09 (Distance: 1.2, Type: ride)
+  -> F08 (Distance: 0.0, Type: walk)
+
+Y09 (Ikebukuro):
+  -> Y08 (Distance: 1.2, Type: ride)
+  -> Y10 (Distance: 0.9, Type: ride)
+  -> F09 (Distance: 0.0, Type: walk)
+
+Y10 (Higashi-ikebukuro):
+  -> Y09 (Distance: 0.9, Type: ride)
+  -> Y11 (Distance: 1.1, Type: ride)
+
+Y11 (Gokokuji):
+  -> Y10 (Distance: 1.1, Type: ride)
+  -> Y12 (Distance: 1.3, Type: ride)
+
+Y12 (Edogawabashi):
+  -> Y11 (Distance: 1.3, Type: ride)
+  -> Y13 (Distance: 1.6, Type: ride)
+
+Y13 (Iidabashi):
+  -> Y12 (Distance: 1.6, Type: ride)
+  -> Y14 (Distance: 1.1, Type: ride)
+  -> E06 (Distance: 0.0, Type: walk)
+  -> T06 (Distance: 0.0, Type: walk)
+  -> N10 (Distance: 0.0, Type: walk)
+
+Y14 (Ichigaya):
+  -> Y13 (Distance: 1.1, Type: ride)
+  -> Y15 (Distance: 0.9, Type: ride)
+  -> S04 (Distance: 0.0, Type: walk)
+  -> N09 (Distance: 0.0, Type: walk)
+
+Y15 (Kojimachi):
+  -> Y14 (Distance: 0.9, Type: ride)
+  -> Y16 (Distance: 0.9, Type: ride)
+
+Y16 (Nagatacho):
+  -> Y15 (Distance: 0.9, Type: ride)
+  -> Y17 (Distance: 0.9, Type: ride)
+  -> G05 (Distance: 0.0, Type: walk)
+  -> M13 (Distance: 0.0, Type: walk)
+  -> N07 (Distance: 0.0, Type: walk)
+  -> Z04 (Distance: 0.0, Type: walk)
+
+Y17 (Sakuradamon):
+  -> Y16 (Distance: 0.9, Type: ride)
+  -> Y18 (Distance: 1.0, Type: ride)
+
+Y18 (Yurakucho):
+  -> Y17 (Distance: 1.0, Type: ride)
+  -> Y19 (Distance: 0.5, Type: ride)
+  -> I08 (Distance: 0.0, Type: walk)
+  -> C09 (Distance: 0.0, Type: walk)
+  -> H07 (Distance: 0.0, Type: walk)
+
+Y19 (Ginza-itchome):
+  -> Y18 (Distance: 0.5, Type: ride)
+  -> Y20 (Distance: 0.7, Type: ride)
+
+Y20 (Shintomicho):
+  -> Y19 (Distance: 0.7, Type: ride)
+  -> Y21 (Distance: 1.3, Type: ride)
+
+Y21 (Tsukishima):
+  -> Y20 (Distance: 1.3, Type: ride)
+  -> Y22 (Distance: 1.4, Type: ride)
+  -> E16 (Distance: 0.0, Type: walk)
+
+Y22 (Toyosu):
+  -> Y21 (Distance: 1.4, Type: ride)
+  -> Y23 (Distance: 1.7, Type: ride)
+
+Y23 (Tatsumi):
+  -> Y22 (Distance: 1.7, Type: ride)
+  -> Y24 (Distance: 1.5, Type: ride)
+
+Y24 (Shin-kiba):
+  -> Y23 (Distance: 1.5, Type: ride)
+
+Z01 (Shibuya):
+  -> Z02 (Distance: 1.3, Type: ride)
+  -> F16 (Distance: 0.0, Type: walk)
+  -> G01 (Distance: 0.0, Type: walk)
+
+Z02 (Omote-sando):
+  -> Z01 (Distance: 1.3, Type: ride)
+  -> Z03 (Distance: 1.4, Type: ride)
+  -> C04 (Distance: 0.0, Type: walk)
+  -> G02 (Distance: 0.0, Type: walk)
+
+Z03 (Aoyama-itchome):
+  -> Z02 (Distance: 1.4, Type: ride)
+  -> Z04 (Distance: 1.4, Type: ride)
+  -> E24 (Distance: 0.0, Type: walk)
+  -> G04 (Distance: 0.0, Type: walk)
+
+Z04 (Nagatacho):
+  -> Z03 (Distance: 1.4, Type: ride)
+  -> Z05 (Distance: 1.0, Type: ride)
+  -> G05 (Distance: 0.0, Type: walk)
+  -> M13 (Distance: 0.0, Type: walk)
+  -> N07 (Distance: 0.0, Type: walk)
+  -> Y16 (Distance: 0.0, Type: walk)
+
+Z05 (Hanzomon):
+  -> Z04 (Distance: 1.0, Type: ride)
+  -> Z06 (Distance: 1.6, Type: ride)
+
+Z06 (Kudanshita):
+  -> Z05 (Distance: 1.6, Type: ride)
+  -> Z07 (Distance: 0.4, Type: ride)
+  -> S05 (Distance: 0.0, Type: walk)
+  -> T07 (Distance: 0.0, Type: walk)
+
+Z07 (Jimbocho):
+  -> Z06 (Distance: 0.4, Type: ride)
+  -> Z08 (Distance: 1.7, Type: ride)
+  -> S06 (Distance: 0.0, Type: walk)
+  -> I10 (Distance: 0.0, Type: walk)
+
+Z08 (Otemachi):
+  -> Z07 (Distance: 1.7, Type: ride)
+  -> Z09 (Distance: 0.7, Type: ride)
+  -> I09 (Distance: 0.0, Type: walk)
+  -> C11 (Distance: 0.0, Type: walk)
+  -> M18 (Distance: 0.0, Type: walk)
+
+Z09 (Mitsukoshimae):
+  -> Z08 (Distance: 0.7, Type: ride)
+  -> Z10 (Distance: 1.3, Type: ride)
+  -> G12 (Distance: 0.0, Type: walk)
+
+Z10 (Suitengumae):
+  -> Z09 (Distance: 1.3, Type: ride)
+  -> Z11 (Distance: 1.7, Type: ride)
+
+Z11 (Kiyosumi-shirakawa):
+  -> Z10 (Distance: 1.7, Type: ride)
+  -> Z12 (Distance: 1.9, Type: ride)
+  -> E14 (Distance: 0.0, Type: walk)
+
+Z12 (Sumiyoshi):
+  -> Z11 (Distance: 1.9, Type: ride)
+  -> Z13 (Distance: 1.0, Type: ride)
+  -> S13 (Distance: 0.0, Type: walk)
+
+Z13 (Kinshicho):
+  -> Z12 (Distance: 1.0, Type: ride)
+  -> Z14 (Distance: 1.4, Type: ride)
+
+Z14 (Oshiage <SKYTREE>):
+  -> Z13 (Distance: 1.4, Type: ride)
+  -> A20 (Distance: 0.0, Type: walk)
+

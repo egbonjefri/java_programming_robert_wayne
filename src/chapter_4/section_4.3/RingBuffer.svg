@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
+  <circle cx="150" cy="150" r="120" fill="none" stroke="black" stroke-width="2"/>
+  <circle cx="150" cy="30" r="20" fill="lightblue"/>
+  <circle cx="247" cy="97" r="20" fill="lightblue"/>
+  <circle cx="247" cy="203" r="20" fill="lightblue"/>
+  <circle cx="150" cy="270" r="20" fill="lightblue"/>
+  <circle cx="53" cy="203" r="20" fill="lightblue"/>
+  <circle cx="53" cy="97" r="20" fill="lightblue"/>
+  
+  <text x="150" y="35" text-anchor="middle" alignment-baseline="middle">0</text>
+  <text x="247" y="102" text-anchor="middle" alignment-baseline="middle">1</text>
+  <text x="247" y="208" text-anchor="middle" alignment-baseline="middle">2</text>
+  <text x="150" y="275" text-anchor="middle" alignment-baseline="middle">3</text>
+  <text x="53" y="208" text-anchor="middle" alignment-baseline="middle">4</text>
+  <text x="53" y="102" text-anchor="middle" alignment-baseline="middle">5</text>
+  
+  <path d="M 150 50 Q 200 100 227 97" fill="none" stroke="red" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <path d="M 267 97 Q 300 150 267 203" fill="none" stroke="red" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <path d="M 247 223 Q 200 250 170 250" fill="none" stroke="red" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <path d="M 130 270 Q 80 250 73 223" fill="none" stroke="red" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <path d="M 33 203 Q 0 150 33 97" fill="none" stroke="red" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <path d="M 53 77 Q 100 50 130 50" fill="none" stroke="red" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="red"/>
+    </marker>
+  </defs>
+</svg>
